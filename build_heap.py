@@ -4,6 +4,7 @@
 def build_heap(data):
     swaps = []
     # TODO: Creat heap and heap sort
+    ExtractMax(n2)
     # try to achieve  O(n) and not O(n2)
 
 
