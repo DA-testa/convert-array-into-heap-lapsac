@@ -1,9 +1,14 @@
 # python3
-
+# import heapq
 
 def build_heap(data):
     swaps = []
+    n = len(data)
+    for i in range(n// 2 - 1, -1, -1):
+        heapify(data, n, i, swaps)
+    return swaps
     # TODO: Creat heap and heap sort
+
     ExtractMax(n2)
     # try to achieve  O(n) and not O(n2)
 
