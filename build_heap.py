@@ -14,7 +14,7 @@ def build_heap(data):
             if data[j] <= data[k]:
                 break
             swaps.append((j,k))
-            data[j], data[k] = data[k], data[k]
+            data[j], data[k] = data[k], data[j]
             j = k
 
     return swaps
